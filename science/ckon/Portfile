@@ -24,7 +24,7 @@ long_description    ckon is a C++ program/tool which automatically takes care \
 homepage            http://tschaume.github.io/ckon/
 
 fetch.type          git
-git.url             git://github.com:tschaume/ckon.git
+git.url             git://github.com/tschaume/ckon.git
 git.branch          origin/dev
 
-depends_lib         port:boost port:libcurl
+depends_lib         port:boost port:curl
