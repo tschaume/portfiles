@@ -8,7 +8,19 @@ categories          science
 platforms           darwin
 maintainers         tschaume
 description         automatic build tool for ROOT software
-long_description    automatic build tool for ROOT software (supports boost & yaml)
+license             MIT
+long_description    ckon is a C++ program/tool which automatically takes care \
+                    of compilation, dictionary generation and linking of \
+                    programs and libraries developed for data analyses within \
+                    the CERN ROOT analysis framework. This includes parsing \
+                    include headers to figure out which libraries the main \
+                    programs need to be linked to. It uses automake/autoconf to \
+                    be platform independent and GNU install compliant. \
+                    In addition, m4 macros are automatically downloaded and \
+                    the according compiler flags included based on a list of boost \
+                    libraries provided in the config file. For the purpose of \
+                    YAML database usage, a m4 macro can be downloaded during \
+                    setup to link against the yaml-cpp library.
 homepage            http://tschaume.github.io/ckon/
 
 fetch.type          git
