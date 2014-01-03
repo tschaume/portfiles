@@ -27,8 +27,8 @@ long_description        ckon is a C++ program/tool which automatically takes car
 
 homepage                http://tschaume.github.io/ckon/
 
-checksums               rmd160  15bdfea62c9eade2d48a61d33ab4244c124a29a2 \
-                        sha256  17d02ee4eb1dd3108700158761c5bf8eb3f8ff9b30693745143c22a2c39e6784
+checksums               rmd160  728b71bcb3fb97b3fd407111864dfe948c8e38ed \
+                        sha256  fe4e3216e91f81c1976c121c7095d334cb3da91cefaab9d5be63ce346f2f0aac
 
 depends_lib             port:boost \
                         port:curl
