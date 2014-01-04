@@ -4,7 +4,7 @@
 PortSystem              1.0
 PortGroup               github 1.0
 
-github.setup            tschaume ckon 0.6.3 v
+github.setup            tschaume ckon 0.6.4 v
 categories              science
 platforms               darwin
 maintainers             the-huck.com:patrick
@@ -27,8 +27,8 @@ long_description        ckon is a C++ program/tool which automatically takes car
 
 homepage                http://tschaume.github.io/ckon/
 
-checksums               rmd160  728b71bcb3fb97b3fd407111864dfe948c8e38ed \
-                        sha256  fe4e3216e91f81c1976c121c7095d334cb3da91cefaab9d5be63ce346f2f0aac
+checksums               rmd160  70376a3d3f78b63f1dcd43668098664677f015a7 \
+                        sha256  287ef8a0fe95c1f3c4adc11497cb1676be74271a9505fc7854c4667f07ff4a5e
 
 depends_lib             port:boost \
                         port:curl
