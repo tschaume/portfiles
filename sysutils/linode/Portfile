@@ -15,8 +15,15 @@ long_description    Linode CLI is a simple command-line interface to the Linode 
 
 homepage            https://github.com/linode/cli
 
-checksums
+checksums           rmd160 9b1ee507ddae9fc630d099a47c75928c21cbf71a \
+                    sha256 aea0e2d2f38275a2b788b645ca89863d9f5f49da2a3ab3452b0c6ae2ca4f627b
 
-depends_lib         port:perl
+depends_lib         port:perl5 \
+                    port:p5-crypt-ssleay \
+                    port:p5-json \
+                    port:p5-lwp-useragent-determined \
+                    port:p5-mozilla-ca \
+                    port:p5-try-tiny \
+                    port:p5-webservice-linode
 
 configure.cmd       perl Makefile.PL
