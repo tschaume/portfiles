@@ -1,0 +1,31 @@
+# -*- coding: utf-8; mode: tcl; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- vim:fenc=utf-8:ft=tcl:et:sw=4:ts=4:sts=4
+# $Id$
+
+PortSystem          1.0
+PortGroup           perl5 1.0
+
+perl5.branches      5.8 5.10 5.12 5.14 5.16
+perl5.setup         WebService-Linode 0.17
+
+platforms           darwin
+maintainers         nomaintainer
+license             GPL-2
+
+# Uncomment this line if you know there will be no arch-specific code:
+#supported_archs     noarch
+
+description         Perl Interface to the Linode.com API.
+
+long_description    ${description}
+
+checksums           sha256 53b686adb58fa23b32fd38300ea2556d8e7be3bb642ef06cd9b8302d75d81067 \
+                    rmd160 bd616d1fa1c7809b094e26846fd1c381af7a71de
+
+depends_lib         port:perl5 \
+                    port:p5-lwp-useragent-determined \
+                    port:p5-try-tiny \
+                    port:p5-libwww-perl \
+                    port:p5-mozilla-ca \
+                    port:p5-crypt-ssleay \
+                    port:p5-json
+perl5.use_module_build
