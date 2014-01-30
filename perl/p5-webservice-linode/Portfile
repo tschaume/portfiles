@@ -22,10 +22,10 @@ checksums           sha256 53b686adb58fa23b32fd38300ea2556d8e7be3bb642ef06cd9b83
                     rmd160 bd616d1fa1c7809b094e26846fd1c381af7a71de
 
 depends_lib         port:perl5 \
-                    port:p5-lwp-useragent-determined \
-                    port:p5-try-tiny \
-                    port:p5-libwww-perl \
-                    port:p5-mozilla-ca \
-                    port:p5-crypt-ssleay \
-                    port:p5-json
+                    port:p5.16-lwp-useragent-determined \
+                    port:p5.16-try-tiny \
+                    port:p5.16-libwww-perl \
+                    port:p5.16-mozilla-ca \
+                    port:p5.16-crypt-ssleay \
+                    port:p5.16-json
 perl5.use_module_build
